@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JKCalendarCustom_Example' do
+  pod 'JKCalendarCustom', :path => '../'
+
+  target 'JKCalendarCustom_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
