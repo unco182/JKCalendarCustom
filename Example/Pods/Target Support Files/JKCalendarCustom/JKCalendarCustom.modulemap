@@ -1,0 +1,6 @@
+framework module JKCalendarCustom {
+  umbrella header "JKCalendarCustom-umbrella.h"
+
+  export *
+  module * { export * }
+}

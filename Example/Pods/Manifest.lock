@@ -1,0 +1,16 @@
+PODS:
+  - JKCalendarCustom (0.1.0)
+
+DEPENDENCIES:
+  - JKCalendarCustom (from `../`)
+
+EXTERNAL SOURCES:
+  JKCalendarCustom:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JKCalendarCustom: cf9ea56188a3910a5b69f0ba92a9676cdd5c21a5
+
+PODFILE CHECKSUM: 1b79225556ab554196d7b4c5de08c6923ad7d598
+
+COCOAPODS: 1.5.3

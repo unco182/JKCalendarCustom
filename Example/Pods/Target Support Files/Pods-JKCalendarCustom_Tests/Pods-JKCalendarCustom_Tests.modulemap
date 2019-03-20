@@ -1,0 +1,6 @@
+framework module Pods_JKCalendarCustom_Tests {
+  umbrella header "Pods-JKCalendarCustom_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
