@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JKCalendarCustom'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'JKCalendarCustom based on JKCalendar by JoeCiou'
 
 # This description is used to generate tags and improve search results.
@@ -23,13 +23,13 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'unco182' => 'unco182@gmail.com' }
-  s.source           = { :git => 'https://github.com/unco182/JKCalendarCustom.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/unco182/JKCalendar.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 s.swift_version = '4.2'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'JKCalendarCustom/JKCalendarCustom/Classes/**/*'
+  s.source_files = 'JKCalendar/Classes/**/*'
   
   # s.resource_bundles = {
   #   'JKCalendarCustom' => ['JKCalendarCustom/Assets/*.png']
