@@ -29,7 +29,7 @@ s.swift_version = '4.2'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'JKCalendarCustom/Classes/**/*'
+  s.source_files = 'JKCalendarCustom/JKCalendarCustom/Classes/**/*'
   
   # s.resource_bundles = {
   #   'JKCalendarCustom' => ['JKCalendarCustom/Assets/*.png']
