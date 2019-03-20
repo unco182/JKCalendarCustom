@@ -11,16 +11,16 @@
 		1A9F1A5CB8DB8F504CF3285DD8AB89A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		26C820C86345DC7691F0E4CDA0A78EF0 /* Pods-JKCalendarCustom_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D416FBC82833D8D7FC78A884AF911715 /* Pods-JKCalendarCustom_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		30EC24BC429E93A119E5AE81A5168325 /* JKCalendarCustom-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3262F0665F834AD612DB2E7F7D865A46 /* JKCalendarCustom-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		71C521BB2242DC29008920A4 /* JKCalendar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71C521B12242DC28008920A4 /* JKCalendar.xib */; };
-		71C521BC2242DC29008920A4 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 71C521B22242DC28008920A4 /* Info.plist */; };
-		71C521BD2242DC29008920A4 /* icon.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71C521B32242DC28008920A4 /* icon.xcassets */; };
-		71C521BE2242DC29008920A4 /* common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C521B42242DC29008920A4 /* common.swift */; };
-		71C521BF2242DC29008920A4 /* JKCalendarMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C521B52242DC29008920A4 /* JKCalendarMark.swift */; };
-		71C521C02242DC29008920A4 /* JKCalendarScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C521B62242DC29008920A4 /* JKCalendarScrollView.swift */; };
-		71C521C12242DC29008920A4 /* JKCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C521B72242DC29008920A4 /* JKCalendarView.swift */; };
-		71C521C22242DC29008920A4 /* JKCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C521B82242DC29008920A4 /* JKCalendar.swift */; };
-		71C521C32242DC29008920A4 /* JKCalendar.h in Headers */ = {isa = PBXBuildFile; fileRef = 71C521B92242DC29008920A4 /* JKCalendar.h */; };
-		71C521C42242DC29008920A4 /* JKCalendarTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C521BA2242DC29008920A4 /* JKCalendarTableView.swift */; };
+		71C521CF2242DCF8008920A4 /* JKCalendar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71C521C52242DCF7008920A4 /* JKCalendar.xib */; };
+		71C521D02242DCF8008920A4 /* JKCalendar.h in Headers */ = {isa = PBXBuildFile; fileRef = 71C521C62242DCF7008920A4 /* JKCalendar.h */; };
+		71C521D12242DCF8008920A4 /* JKCalendarScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C521C72242DCF8008920A4 /* JKCalendarScrollView.swift */; };
+		71C521D22242DCF8008920A4 /* common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C521C82242DCF8008920A4 /* common.swift */; };
+		71C521D32242DCF8008920A4 /* icon.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71C521C92242DCF8008920A4 /* icon.xcassets */; };
+		71C521D42242DCF8008920A4 /* JKCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C521CA2242DCF8008920A4 /* JKCalendarView.swift */; };
+		71C521D52242DCF8008920A4 /* JKCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C521CB2242DCF8008920A4 /* JKCalendar.swift */; };
+		71C521D62242DCF8008920A4 /* JKCalendarTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C521CC2242DCF8008920A4 /* JKCalendarTableView.swift */; };
+		71C521D72242DCF8008920A4 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 71C521CD2242DCF8008920A4 /* Info.plist */; };
+		71C521D82242DCF8008920A4 /* JKCalendarMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C521CE2242DCF8008920A4 /* JKCalendarMark.swift */; };
 		770CFE3067AD33ADA2BE3B9850BEDC26 /* Pods-JKCalendarCustom_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 24F2B579AE573F2FDDBA5F8D22984740 /* Pods-JKCalendarCustom_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		813B79DE8724D9BF8173F642992D6A78 /* JKCalendarCustom-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FABF07C02AEDF900E52B85AD2CA96E9 /* JKCalendarCustom-dummy.m */; };
 		81778574B54369FC938B4E6EB291245E /* Pods-JKCalendarCustom_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3F8D51DF02BA8E2295DB8B0A8DA1C6 /* Pods-JKCalendarCustom_Tests-dummy.m */; };
@@ -60,16 +60,16 @@
 		502BA929B84110364C1809F362F245A1 /* Pods-JKCalendarCustom_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JKCalendarCustom_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		59EDA0D20522830DEF176B0AADD44554 /* Pods-JKCalendarCustom_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JKCalendarCustom_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		5CAC82AE1C9B297A26EC8A4F71282B28 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		71C521B12242DC28008920A4 /* JKCalendar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JKCalendar.xib; sourceTree = "<group>"; };
-		71C521B22242DC28008920A4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		71C521B32242DC28008920A4 /* icon.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = icon.xcassets; sourceTree = "<group>"; };
-		71C521B42242DC29008920A4 /* common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = common.swift; sourceTree = "<group>"; };
-		71C521B52242DC29008920A4 /* JKCalendarMark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JKCalendarMark.swift; sourceTree = "<group>"; };
-		71C521B62242DC29008920A4 /* JKCalendarScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JKCalendarScrollView.swift; sourceTree = "<group>"; };
-		71C521B72242DC29008920A4 /* JKCalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JKCalendarView.swift; sourceTree = "<group>"; };
-		71C521B82242DC29008920A4 /* JKCalendar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JKCalendar.swift; sourceTree = "<group>"; };
-		71C521B92242DC29008920A4 /* JKCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKCalendar.h; sourceTree = "<group>"; };
-		71C521BA2242DC29008920A4 /* JKCalendarTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JKCalendarTableView.swift; sourceTree = "<group>"; };
+		71C521C52242DCF7008920A4 /* JKCalendar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = JKCalendar.xib; path = JKCalendarCustom/Classes/JKCalendar.xib; sourceTree = "<group>"; };
+		71C521C62242DCF7008920A4 /* JKCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JKCalendar.h; path = JKCalendarCustom/Classes/JKCalendar.h; sourceTree = "<group>"; };
+		71C521C72242DCF8008920A4 /* JKCalendarScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JKCalendarScrollView.swift; path = JKCalendarCustom/Classes/JKCalendarScrollView.swift; sourceTree = "<group>"; };
+		71C521C82242DCF8008920A4 /* common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = common.swift; path = JKCalendarCustom/Classes/common.swift; sourceTree = "<group>"; };
+		71C521C92242DCF8008920A4 /* icon.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = icon.xcassets; path = JKCalendarCustom/Classes/icon.xcassets; sourceTree = "<group>"; };
+		71C521CA2242DCF8008920A4 /* JKCalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JKCalendarView.swift; path = JKCalendarCustom/Classes/JKCalendarView.swift; sourceTree = "<group>"; };
+		71C521CB2242DCF8008920A4 /* JKCalendar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JKCalendar.swift; path = JKCalendarCustom/Classes/JKCalendar.swift; sourceTree = "<group>"; };
+		71C521CC2242DCF8008920A4 /* JKCalendarTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JKCalendarTableView.swift; path = JKCalendarCustom/Classes/JKCalendarTableView.swift; sourceTree = "<group>"; };
+		71C521CD2242DCF8008920A4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = JKCalendarCustom/Classes/Info.plist; sourceTree = "<group>"; };
+		71C521CE2242DCF8008920A4 /* JKCalendarMark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JKCalendarMark.swift; path = JKCalendarCustom/Classes/JKCalendarMark.swift; sourceTree = "<group>"; };
 		73A3CFF9DE75A9B76C20EAFE2807ABC0 /* Pods-JKCalendarCustom_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JKCalendarCustom_Example-resources.sh"; sourceTree = "<group>"; };
 		76611D2B023EF42B264874C1AA626AEC /* Pods-JKCalendarCustom_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JKCalendarCustom_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		7EAE6E7E113F330BAB8142C3E480ABFC /* Pods-JKCalendarCustom_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JKCalendarCustom_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -176,16 +176,16 @@
 		71C521B02242DC02008920A4 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				71C521B42242DC29008920A4 /* common.swift */,
-				71C521B32242DC28008920A4 /* icon.xcassets */,
-				71C521B22242DC28008920A4 /* Info.plist */,
-				71C521B92242DC29008920A4 /* JKCalendar.h */,
-				71C521B82242DC29008920A4 /* JKCalendar.swift */,
-				71C521B12242DC28008920A4 /* JKCalendar.xib */,
-				71C521B52242DC29008920A4 /* JKCalendarMark.swift */,
-				71C521B62242DC29008920A4 /* JKCalendarScrollView.swift */,
-				71C521BA2242DC29008920A4 /* JKCalendarTableView.swift */,
-				71C521B72242DC29008920A4 /* JKCalendarView.swift */,
+				71C521C82242DCF8008920A4 /* common.swift */,
+				71C521C92242DCF8008920A4 /* icon.xcassets */,
+				71C521CD2242DCF8008920A4 /* Info.plist */,
+				71C521C62242DCF7008920A4 /* JKCalendar.h */,
+				71C521CB2242DCF8008920A4 /* JKCalendar.swift */,
+				71C521C52242DCF7008920A4 /* JKCalendar.xib */,
+				71C521CE2242DCF8008920A4 /* JKCalendarMark.swift */,
+				71C521C72242DCF8008920A4 /* JKCalendarScrollView.swift */,
+				71C521CC2242DCF8008920A4 /* JKCalendarTableView.swift */,
+				71C521CA2242DCF8008920A4 /* JKCalendarView.swift */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -278,7 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				30EC24BC429E93A119E5AE81A5168325 /* JKCalendarCustom-umbrella.h in Headers */,
-				71C521C32242DC29008920A4 /* JKCalendar.h in Headers */,
+				71C521D02242DCF8008920A4 /* JKCalendar.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,9 +394,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71C521BC2242DC29008920A4 /* Info.plist in Resources */,
-				71C521BD2242DC29008920A4 /* icon.xcassets in Resources */,
-				71C521BB2242DC29008920A4 /* JKCalendar.xib in Resources */,
+				71C521D32242DCF8008920A4 /* icon.xcassets in Resources */,
+				71C521CF2242DCF8008920A4 /* JKCalendar.xib in Resources */,
+				71C521D72242DCF8008920A4 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,13 +430,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71C521BE2242DC29008920A4 /* common.swift in Sources */,
+				71C521D12242DCF8008920A4 /* JKCalendarScrollView.swift in Sources */,
+				71C521D52242DCF8008920A4 /* JKCalendar.swift in Sources */,
+				71C521D42242DCF8008920A4 /* JKCalendarView.swift in Sources */,
 				813B79DE8724D9BF8173F642992D6A78 /* JKCalendarCustom-dummy.m in Sources */,
-				71C521C22242DC29008920A4 /* JKCalendar.swift in Sources */,
-				71C521C02242DC29008920A4 /* JKCalendarScrollView.swift in Sources */,
-				71C521C42242DC29008920A4 /* JKCalendarTableView.swift in Sources */,
-				71C521C12242DC29008920A4 /* JKCalendarView.swift in Sources */,
-				71C521BF2242DC29008920A4 /* JKCalendarMark.swift in Sources */,
+				71C521D62242DCF8008920A4 /* JKCalendarTableView.swift in Sources */,
+				71C521D82242DCF8008920A4 /* JKCalendarMark.swift in Sources */,
+				71C521D22242DCF8008920A4 /* common.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
